@@ -1,0 +1,26 @@
+student_number=int(input("enter studentnumber:"))
+studentname=(input("enter studentname:"))
+student_group=int(input("enter studentgroup:"))
+student_1=int(input("student_1 marks:"))
+student_2=int(input("student_2 marks:"))
+student_3=int(input("student_3 marks:"))
+student_4=int(input("student_4 marks:"))
+studemt_5=int(input("student_5 marks:"))
+student_6=int(input("student_6 marks:"))
+total=s1+s2+s3+s4+s5+s6
+average=total/6
+if avaerage>91:
+    print("A grade")
+elif average>80:
+    print("B grade")
+elif average>70:
+    print("C grade")
+elif average>60:
+    print("D grade")
+elif average>50:
+    print("E grade")
+else:
+    print("fail")
+    
+    
+    
