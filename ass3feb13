@@ -1,0 +1,34 @@
+c_name=input("enter customer name")
+c_phone=int(input("enter customer phone number"))
+vegetables=input("enter varities of vegetables")
+fruits=input("enter varities of fruits")
+dryfruits=input("enter varities of dryfruits")
+dal=input("enter varities of dal")
+millets=input("enter varities of rice")
+couponcode=(input("enter coupon code")
+bill=vegetables+fruits+dryfruits+millets+dal
+            
+    if bill>5000:
+        if couponcode="hoho"
+            discount=bill *10/100
+    if bill>3000:
+        if couponcode="hoho"
+            discount=bill*8/100
+    if bill>2000:
+        if couponcode="hoho"
+            discount=bill*5/100
+    if bill>1000:
+        if couponcode="hoho"
+            discount=bill*3/100
+    elif bill>500:
+        if couponcode="hohoo"
+            discount=2*/100
+            tax=bill*10/100
+        if couponcode="hohoo"
+            discount=bill*20/100
+            tax=bill*12/100
+    else:
+            print("invalid couponcode")
+        main bill=bill-discount+tax
+            print("bill amount",main bill)
+            
