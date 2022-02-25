@@ -1,0 +1,16 @@
+n=int(input('enter n'))
+t=[]
+l=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+x=0
+for i in range(x,n):
+    if l[i]>0:
+       t.append(1[i])
+       x=x+1
+x=0
+for i in range(x,n):
+    if l[i]<0:
+    t.append(1[i])
+print(t)
