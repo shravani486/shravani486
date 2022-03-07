@@ -1,0 +1,9 @@
+ def FirstAndLast(string) :
+ arrOfStr = string.split();
+ res = "";
+ for a in arr Of Str :
+ res += a[1:len(a) - 1] + " ";
+ return res; 
+ string = "Aditya Degree College";
+ print(string);
+ print(FirstAndLast(string));
