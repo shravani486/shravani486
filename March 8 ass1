@@ -1,0 +1,9 @@
+#combining of two strings
+X=input()
+
+Y=input()
+
+Z=x+y
+
+
+Print(z)
