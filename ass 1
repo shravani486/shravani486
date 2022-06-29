@@ -1,0 +1,7 @@
+emp={1:['abc','sftdev',30000,123456],2:['def','sftdev',50000,2735876],3:['ghi','sftdev',60000,2399805]}
+empno=int(input("enter empno"))
+print('empno',empno)
+print('empname',emp[empno][0])
+print('empdesig',emp[empno][1])
+print('empsal',emp[empno][2])
+print('empphno',emp[empno][3])
